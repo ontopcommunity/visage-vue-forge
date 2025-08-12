@@ -39,18 +39,7 @@ const Hero = () => {
               I craft beautiful, performant web experiences with modern technologies. 
               Specializing in React, TypeScript, and creating pixel-perfect user interfaces.
             </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-8">
-              <Button variant="hero" size="xl" className="group w-full sm:w-auto">
-                View My Work
-                <ExternalLink className="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" />
-              </Button>
-              <Button variant="glass" size="xl" className="group w-full sm:w-auto">
-                <Mail className="mr-2 h-5 w-5" />
-                Get In Touch
-              </Button>
-            </div>
-            
+
             <div className="flex justify-center lg:justify-start gap-6">
               <a 
                 href="https://github.com/ontopcommunity" 
