@@ -24,7 +24,7 @@ const Contact = () => {
               Drop me a line and I'll get back to you within 24 hours.
             </p>
             <Button variant="outline" className="w-full">
-              alex.chen@email.com
+              jayky2k9@gmail.com
             </Button>
           </div>
           
