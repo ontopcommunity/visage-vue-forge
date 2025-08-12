@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/enhanced-button";
 import { Github, Mail, ExternalLink, Facebook, MessageCircle, Send } from "lucide-react";
+import TypewriterText from "@/components/ui/typewriter-text";
 import heroBackground from "@/assets/hero-bg.jpg";
 import HeroTechSphere from "./HeroTechSphere";
 
