@@ -12,20 +12,12 @@ const Projects = () => {
       live: "https://admin-demo.vuestic.dev/dashboard"
     },
     {
-      title: "Task Management App",
-      description: "Collaborative task management application with real-time updates, team collaboration features, and advanced filtering.",
-      tech: ["Next.js", "Prisma", "PostgreSQL", "Socket.io"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com"
-    },
-    {
-      title: "Weather App",
-      description: "Beautiful weather application with location-based forecasts, interactive maps, and personalized weather alerts.",
-      tech: ["Vue.js", "OpenWeather API", "Mapbox", "PWA"],
-      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com"
+      title: "Telegram Gruop Management Bot",
+      description: " Powerful Assistant to help you manage Telegram groups .",
+      tech: ["Python", "MongoDB"],
+      image: "https://i.ibb.co/yByXBMJs/IMG-8812.jpg",
+      github: "https://github.com/ontopcommunity/Ruby",
+      live: "https://t.me/tiensi_teo_bot"
     },
     {
       title: "Portfolio",
