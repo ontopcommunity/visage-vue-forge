@@ -39,7 +39,7 @@ const Hero = () => {
               I craft beautiful, performant web experiences with modern technologies.Specializing in React, TypeScript,HTML/CSS,Javascript and creating pixel-perfect user interfaces.
             </p>
 
-            <div className="flex justify-center lg:justify-start gap-6">
+            <div className="flex justify-center lg:justify-start gap-4">
               <a 
                 href="https://github.com/ontopcommunity" 
                 className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
