@@ -4,12 +4,12 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Dashboard",
+      title: "Dashboard",
       description: "A modern admin dashboard for e-commerce platforms with real-time analytics, inventory management, and customer insights.",
-      tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
+      tech: ["Vue", "TypeScript", "Javascript", "SCSS"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com"
+      github: "https://github.com/ontopcommunity/vuestic-admin",
+      live: "https://admin-demo.vuestic.dev/dashboard"
     },
     {
       title: "Task Management App",
