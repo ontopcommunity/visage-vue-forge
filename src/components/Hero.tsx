@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/enhanced-button";
-import { Github, Mail, ExternalLink } from "lucide-react";
+import { Github, Mail, ExternalLink, Facebook, MessageCircle, Send } from "lucide-react";
 import heroBackground from "@/assets/hero-bg.jpg";
 import HeroTechSphere from "./HeroTechSphere";
 
@@ -52,9 +52,27 @@ const Hero = () => {
               >
                 <Mail className="h-6 w-6 transition-transform group-hover:scale-110" />
               </a>
+               <a 
+                href="https://facebook.com/minh21092k9" 
+                className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
+              >
+                <Facebook className="h-6 w-6 transition-transform group-hover:scale-110" />
+              </a>
+              <a 
+                href="https://tiktok.com/@ontopcommunity" 
+                className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
+              >
+                <MessageCircle className="h-6 w-6 transition-transform group-hover:scale-110" />
+              </a>
+              <a 
+                href="https://t.me/ontop2k9" 
+                className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
+              >
+                <Send className="h-6 w-6 transition-transform group-hover:scale-110" />
+              </a>
             </div>
           </div>
-          
+
           {/* Right Content - 3D Tech Sphere */}
           <div className="flex justify-center items-center order-1 lg:order-2">
             <div className="w-full max-w-lg">
