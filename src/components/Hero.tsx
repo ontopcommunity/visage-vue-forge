@@ -59,12 +59,6 @@ const Hero = () => {
                 <Facebook className="h-6 w-6 transition-transform group-hover:scale-110" />
               </a>
               <a 
-                href="https://tiktok.com/@ontopcommunity" 
-                className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
-              >
-                <MessageCircle className="h-6 w-6 transition-transform group-hover:scale-110" />
-              </a>
-              <a 
                 href="https://t.me/ontop2k9" 
                 className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
               >
