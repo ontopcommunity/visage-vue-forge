@@ -71,9 +71,6 @@ const Hero = () => {
           <div className="relative">
             <HeroTechSphere />
             <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-              <p className="text-xs text-muted-foreground/70 text-center">
-                Drag to rotate • Scroll to zoom
-              </p>
             </div>
           </div>
         </div>
