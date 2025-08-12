@@ -36,7 +36,10 @@ const Hero = () => {
             </h1>
             
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-8 max-w-sm md:max-w-xl lg:max-w-2xl mx-auto lg:mx-0 leading-relaxed px-2 lg:px-0">
-              I craft beautiful, performant web experiences with modern technologies.Specializing in React, TypeScript,HTML/CSS,Javascript and creating pixel-perfect user interfaces.
+              <TypewriterText 
+                text="I craft beautiful, performant web experiences with modern technologies. Specializing in React, TypeScript, HTML/CSS, Javascript and creating pixel-perfect user interfaces."
+                speed={30}
+              />
             </p>
 
             <div className="flex justify-center lg:justify-start gap-4">
