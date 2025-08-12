@@ -32,7 +32,7 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold bg-gradient-primary bg-clip-text text-transparent mb-6 animate-glow leading-tight">
-              Alex Chen
+              Ontop
             </h1>
             
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
@@ -53,13 +53,13 @@ const Hero = () => {
             
             <div className="flex justify-center lg:justify-start gap-6">
               <a 
-                href="https://github.com" 
+                href="https://github.com/ontopcommunity" 
                 className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
               >
                 <Github className="h-6 w-6 transition-transform group-hover:scale-110" />
               </a>
               <a 
-                href="mailto:alex@example.com" 
+                href="mailto:jayky2k9@gmail.com" 
                 className="p-3 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
               >
                 <Mail className="h-6 w-6 transition-transform group-hover:scale-110" />
