@@ -157,7 +157,7 @@ const HeroTechSphere: React.FC = () => {
         <HeroSphere />
         <OrbitControls
           enablePan={false}
-          enableZoom={true}
+          enableZoom={false}
           minDistance={4}
           maxDistance={10}
           autoRotate
