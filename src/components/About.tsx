@@ -45,7 +45,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Projects</span>
-                  <span className="font-medium"10+ Completed</span>
+                  <span className="font-medium">10+ Completed</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Location</span>
