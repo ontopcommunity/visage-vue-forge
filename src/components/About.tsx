@@ -49,7 +49,7 @@ const About = () => {
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Location</span>
-                  <span className="font-medium">San Francisco, CA</span>
+                  <span className="font-medium">Ha Tinh,VietNam</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-muted-foreground">Availability</span>
