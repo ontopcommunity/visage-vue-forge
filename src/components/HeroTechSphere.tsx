@@ -149,7 +149,7 @@ const HeroTechSphere: React.FC = () => {
   return (
     <div className="w-full h-[500px] relative">
       <Canvas
-        camera={{ position: [0, 0, 10], fov: 60 }}
+        camera={{ position: [0, 0, 12], fov: 60 }}
         style={{ background: 'transparent' }}
       >
         <ambientLight intensity={0.6} />
