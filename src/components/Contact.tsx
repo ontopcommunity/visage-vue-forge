@@ -42,19 +42,13 @@ const Contact = () => {
         
         <div className="flex justify-center gap-6">
           <a 
-            href="https://linkedin.com" 
-            className="p-4 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
-          >
-            <Linkedin className="h-6 w-6 transition-transform group-hover:scale-110" />
-          </a>
-          <a 
-            href="https://github.com" 
+            href="https://github.com/ontopcommunity" 
             className="p-4 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
           >
             <Github className="h-6 w-6 transition-transform group-hover:scale-110" />
           </a>
           <a 
-            href="mailto:alex@example.com" 
+            href="mailto:jayky2k9@gmail.com" 
             className="p-4 bg-glass border border-glass rounded-full hover:border-primary/50 transition-all duration-300 hover:shadow-glow backdrop-blur-sm group"
           >
             <Mail className="h-6 w-6 transition-transform group-hover:scale-110" />
