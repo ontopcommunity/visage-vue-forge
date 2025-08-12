@@ -159,7 +159,7 @@ const HeroTechSphere: React.FC = () => {
           enablePan={false}
           enableZoom={false}
           minDistance={4}
-          maxDistance={10}
+          maxDistance={7}
           autoRotate
           autoRotateSpeed={1}
         />
