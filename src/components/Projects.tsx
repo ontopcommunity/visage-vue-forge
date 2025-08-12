@@ -28,12 +28,12 @@ const Projects = () => {
       live: "https://example.com"
     },
     {
-      title: "Portfolio Website",
+      title: "Portfolio",
       description: "A responsive portfolio website showcasing modern web development techniques and beautiful animations.",
       tech: ["React", "Framer Motion", "Tailwind CSS", "Vite"],
-      image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
-      github: "https://github.com",
-      live: "https://example.com"
+      image: "https://i.ibb.co/3yB0TVDP/IMG-8810.png",
+      github: "https://github.com/ontopcommunity/visage-vue-forge",
+      live: "https://visage-vue-forge.vercel.app"
     }
   ];
 
