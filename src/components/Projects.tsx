@@ -4,12 +4,12 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Dashboard",
+      title: "E-Commerce Dashboard",
       description: "A modern admin dashboard for e-commerce platforms with real-time analytics, inventory management, and customer insights.",
-      tech: ["Vue", "TypeScript", "Javascript", "SCSS"],
+      tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js"],
       image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
-      github: "https://github.com/ontopcommunity/vuestic-admin",
-      live: "https://admin-demo.vuestic.dev/dashboard"
+      github: "https://github.com",
+      live: "https://example.com"
     },
     {
       title: "Task Management App",
@@ -80,11 +80,21 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <Button variant="outline" size="sm" className="group">
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="group"
+                    onClick={() => window.open(project.github, '_blank')}
+                  >
                     <Github className="mr-2 h-4 w-4" />
                     Code
                   </Button>
-                  <Button variant="gradient" size="sm" className="group">
+                  <Button 
+                    variant="gradient" 
+                    size="sm" 
+                    className="group"
+                    onClick={() => window.open(project.live, '_blank')}
+                  >
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Live Demo
                   </Button>
