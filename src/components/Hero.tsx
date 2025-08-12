@@ -35,7 +35,7 @@ const Hero = () => {
               Ontop
             </h1>
             
-            <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-8 max-w-xl lg:max-w-2xl mx-auto lg:mx-0 leading-relaxed px-4 lg:px-0">
+            <p className="text-base md:text-lg lg:text-xl text-muted-foreground mb-8 max-w-sm md:max-w-xl lg:max-w-2xl mx-auto lg:mx-0 leading-relaxed px-2 lg:px-0">
               I craft beautiful, performant web experiences with modern technologies. 
               Specializing in React, TypeScript,HTML/CSS,Javascript and creating pixel-perfect user interfaces.
             </p>
