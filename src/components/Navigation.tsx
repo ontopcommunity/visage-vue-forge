@@ -43,8 +43,7 @@ const Navigation = () => {
           >
             Ontop
           </button>
-
-          {/* Desktop Navigation */}
+          
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
               <button
@@ -60,7 +59,6 @@ const Navigation = () => {
             </Button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden p-2 hover:bg-glass rounded-lg transition-colors duration-300"
@@ -73,7 +71,6 @@ const Navigation = () => {
           </button>
         </div>
 
-        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="md:hidden mt-4 py-4 bg-glass backdrop-blur-md rounded-xl border border-glass">
             <div className="flex flex-col space-y-4">
