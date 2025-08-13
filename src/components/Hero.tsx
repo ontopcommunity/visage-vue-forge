@@ -15,16 +15,11 @@ const Hero = () => {
         />
         <div className="absolute inset-0 bg-background/60" />
       </div>
-      
-      {/* Floating elements */}
       <div className="absolute top-20 left-10 w-20 h-20 bg-gradient-primary rounded-full opacity-20 animate-float" />
       <div className="absolute bottom-20 right-10 w-32 h-32 bg-accent/20 rounded-full animate-float" style={{ animationDelay: '1s' }} />
       <div className="absolute top-1/2 right-1/4 w-16 h-16 bg-primary/20 rounded-full animate-float" style={{ animationDelay: '2s' }} />
-      
-      {/* Content Container */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-12">
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-center min-h-[80vh]">
-          {/* Left Content */}
           <div className="text-center lg:text-left order-2 lg:order-1">
             <div className="mb-6">
               <span className="inline-block px-4 py-2 bg-glass border border-glass rounded-full text-sm font-medium text-muted-foreground backdrop-blur-sm">
@@ -70,8 +65,6 @@ const Hero = () => {
               </a>
             </div>
           </div>
-
-          {/* Right Content - 3D Tech Sphere */}
           <div className="flex justify-center items-center order-1 lg:order-2">
             <div className="w-full max-w-lg">
               <HeroTechSphere />
