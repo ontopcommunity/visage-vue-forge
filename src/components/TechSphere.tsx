@@ -2,8 +2,6 @@ import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Html, OrbitControls, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
-
-// Import language icons
 import javascriptIcon from '@/assets/icons/javascript.svg';
 import typescriptIcon from '@/assets/icons/typescript.svg';
 import reactIcon from '@/assets/icons/react.svg';
@@ -20,8 +18,6 @@ import goIcon from '@/assets/icons/go.svg';
 import rustIcon from '@/assets/icons/rust.svg';
 import swiftIcon from '@/assets/icons/swift.svg';
 import kotlinIcon from '@/assets/icons/kotlin.svg';
-
-// Programming language icons with actual SVG files
 const programmingLanguages = [
   { name: 'JavaScript', icon: javascriptIcon },
   { name: 'TypeScript', icon: typescriptIcon },
@@ -52,9 +48,7 @@ const LanguageIcon: React.FC<LanguageIconProps> = ({ position, language, index }
 
   useFrame((state) => {
     if (ref.current) {
-      // Rotate icons to always face the camera
       ref.current.lookAt(state.camera.position);
-      // Add subtle floating animation
       ref.current.position.y = position[1] + Math.sin(state.clock.elapsedTime + index) * 0.1;
     }
   });
@@ -96,14 +90,11 @@ const LanguageIcon: React.FC<LanguageIconProps> = ({ position, language, index }
 
 const RotatingSphere: React.FC = () => {
   const sphereRef = useRef<THREE.Group>(null);
-  
-  // Generate random positions on sphere surface
   const iconPositions = useMemo(() => {
     const positions: [number, number, number][] = [];
     const radius = 3;
     
     programmingLanguages.forEach((_, index) => {
-      // Use golden spiral distribution for even spacing
       const goldenAngle = Math.PI * (3 - Math.sqrt(5));
       const y = 1 - (index / (programmingLanguages.length - 1)) * 2;
       const radiusAtY = Math.sqrt(1 - y * y);
@@ -121,7 +112,6 @@ const RotatingSphere: React.FC = () => {
 
   useFrame((state) => {
     if (sphereRef.current) {
-      // Slow rotation
       sphereRef.current.rotation.y = state.clock.elapsedTime * 0.1;
       sphereRef.current.rotation.x = Math.sin(state.clock.elapsedTime * 0.1) * 0.1;
     }
@@ -129,10 +119,7 @@ const RotatingSphere: React.FC = () => {
 
   return (
     <group ref={sphereRef}>
-      {/* Invisible sphere for structure */}
       <Sphere args={[3, 32, 32]} visible={false} />
-      
-      {/* Wireframe sphere */}
       <Sphere args={[3, 16, 16]}>
         <meshBasicMaterial
           color="hsl(250, 84%, 60%)"
@@ -142,7 +129,6 @@ const RotatingSphere: React.FC = () => {
         />
       </Sphere>
       
-      {/* Language icons */}
       {programmingLanguages.map((language, index) => (
         <LanguageIcon
           key={language.name}
@@ -175,7 +161,6 @@ const TechSphere: React.FC = () => {
         />
       </Canvas>
       
-      {/* Floating particles */}
       <div className="absolute inset-0 pointer-events-none">
         <div className="absolute top-10 left-10 w-2 h-2 bg-primary/30 rounded-full animate-float" />
         <div className="absolute top-20 right-20 w-1 h-1 bg-accent/40 rounded-full animate-float" style={{ animationDelay: '1s' }} />
