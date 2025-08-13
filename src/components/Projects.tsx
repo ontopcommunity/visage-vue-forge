@@ -12,7 +12,7 @@ const Projects = () => {
       live: "https://vuestic-admin-one.vercel.app"
     },
     {
-      title: "Telegram Gruop Management Bot",
+      title: "Telegram Group Management Bot",
       description: " Powerful Assistant to help you manage Telegram groups .",
       tech: ["Python", "MongoDB"],
       image: "https://i.ibb.co/yByXBMJs/IMG-8812.jpg",
