@@ -9,7 +9,7 @@ const Projects = () => {
       tech: ["Vue", "TypeScript", "Javascript", "SCSS"],
       image: "https://i.ibb.co/JwFFhchX/H-nh-nh-PNG.png",
       github: "https://github.com/ontopcommunity/vuestic-admin",
-      live: "https://admin-demo.vuestic.dev/dashboard"
+      live: "https://vuestic-admin-one.vercel.app"
     },
     {
       title: "Telegram Gruop Management Bot",
