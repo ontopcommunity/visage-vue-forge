@@ -2,8 +2,6 @@ import React, { useRef, useMemo } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { Html, OrbitControls, Sphere } from '@react-three/drei';
 import * as THREE from 'three';
-
-// Import language icons
 import javascriptIcon from '@/assets/icons/javascript.svg';
 import typescriptIcon from '@/assets/icons/typescript.svg';
 import reactIcon from '@/assets/icons/react.svg';
@@ -16,8 +14,6 @@ import nodejsIcon from '@/assets/icons/nodejs.svg';
 import vuejsIcon from '@/assets/icons/vuejs.svg';
 import angularIcon from '@/assets/icons/angular.svg';
 import phpIcon from '@/assets/icons/php.svg';
-
-// Reduced set for Hero section
 const heroLanguages = [
   { name: 'JavaScript', icon: javascriptIcon },
   { name: 'TypeScript', icon: typescriptIcon },
